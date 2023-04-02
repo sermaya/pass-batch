@@ -21,6 +21,8 @@ repositories {
 dependencies {
 	implementation 'org.springframework.boot:spring-boot-starter-batch'
 	implementation 'org.springframework.boot:spring-boot-starter-data-jpa'
+	// AsyncItemProcessor, AsyncItemWriter
+	implementation 'org.springframework.batch:spring-batch-integration'
 	implementation 'org.springframework.boot:spring-boot-starter-webflux'
 	runtimeOnly 'com.h2database:h2'
 	runtimeOnly 'com.mysql:mysql-connector-j'
